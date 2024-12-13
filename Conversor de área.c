@@ -1,22 +1,22 @@
 #include <stdio.h>
 
 void Menu() {
-    printf("\n--- Conversor de Unidades de Área ---\n");
-    printf("Escolha uma das opções abaixo:\n");
-    printf("1. Converter de m² para cm²\n");
+    printf("\n---Conversor de Unidades de Área---\n");
+    printf("\nEscolha uma das opções abaixo:\n");
+    printf("\n1. Converter de m² para cm²\n");
     printf("2. Converter de cm² para m²\n");
     printf("0. Sair\n");
-    printf("Digite sua escolha: ");
+    printf("Digite sua opção: ");
 }
 
 void converterMetroParaCentimetro(double area) {
-    double resultado = area * 10000.0; 
-    printf("%.4f m² equivalem a %.4f cm²\n", area, resultado);
+    double resultado = area * 10000.0;
+    printf("%.4f m² equivale a %.4f cm²\n", area, resultado);
 }
 
 void converterCentimetroParaMetro(double area) {
-    double resultado = area / 10000.0; 
-    printf("%.4f cm² equivalem a %.4f m²\n", area, resultado);
+    double resultado = area / 10000.0;
+    printf("%.4f cm² equivale a %.4f m²\n", area, resultado);
 }
 
 int main() {
@@ -24,7 +24,7 @@ int main() {
     double area;
 
     do {
-        exibirMenu();
+        Menu();
         scanf("%d", &opcao);
 
         switch (opcao) {
