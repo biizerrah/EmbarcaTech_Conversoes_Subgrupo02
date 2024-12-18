@@ -7,6 +7,7 @@
  - **Gabriel Conceição Santos**
  - **João Pedro de Souza**
  - **Kimberlly Alves Santos**
+ - **Luiz Felipe Monte de Oliveira**
  - **Marcos da Silva Freire**
  - **Matheus Venturini Lima**
  - **Matuzalem Guimarães Leal**
