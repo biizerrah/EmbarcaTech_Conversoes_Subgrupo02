@@ -4,7 +4,7 @@
 
 ### Subgrupo 02 - colaboradores
 
- - **Gabriel Conceição Santos**
+ - **Gabriel Conceição dos Santos**
  - **João Pedro de Souza**
  - **Kimberlly Alves Santos**
  - **Luiz Felipe Monte de Oliveira**
